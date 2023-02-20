@@ -1,6 +1,11 @@
 let bg = document.querySelector('#bg');
 let welcome = document.querySelector('#welcome');
 let backList = document.querySelector('#hlight');
+const isMobile = !window.matchMedia('only screen and (min-width: 768px)').matches
+
+// if(isMobile){
+//     // Future Implementation
+// }
 
 document.querySelector('#land').addEventListener('mouseover', function() {
     bg.style.backgroundColor = '#F0F0DD';
