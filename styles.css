@@ -29,6 +29,10 @@
     height: 40rem;
 }
 
+.cont-small {
+    height: 25rem; 
+}
+
 .cont-project {
     height: 100%;
 }
@@ -52,9 +56,9 @@
     font-weight: 400;
     background-color: #0D0619;
     box-shadow: 8px 8px 0px 0px rgba(240,240,221,1);
-    height: 12%;
+    height: 13%;
     margin: 5%;
-    margin-top: 18%;
+    margin-top: 13%;
 }
 
 .btn-90s:hover {
@@ -194,6 +198,10 @@
     opacity: 1.0;
 }
 
+#gradient {
+    margin-bottom: 3%;
+}
+
 nav {
     background-color: #0D0619 !important;
     }
@@ -283,4 +291,30 @@ h1 {
     #video-ambiensa {
         height: auto;
     }
+}
+
+#footer {
+    width: 100%;
+    margin-top: 8rem;
+    background:#EDFF71;
+    height: 18rem; 
+}
+
+.footer-text {
+    text-align: center;
+color: #0D0619;
+font-weight: 600;
+
+}
+
+#email {
+    color: #f8f9fa;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(#0D0619, #0D0619);
+    opacity: 1.0;
 }
