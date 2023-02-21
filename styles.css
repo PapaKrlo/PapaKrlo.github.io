@@ -215,7 +215,6 @@ h1 {
 }
 
 #back-list {
-    /* background-color: #0D0619; */
     border: 3rem;
     border-color: #0D0619;
 }
@@ -302,8 +301,8 @@ h1 {
 
 .footer-text {
     text-align: center;
-color: #0D0619;
-font-weight: 600;
+    color: #0D0619;
+    font-weight: 600;
 
 }
 
