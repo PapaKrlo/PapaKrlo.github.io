@@ -1,9 +1,9 @@
 # PapaKrlo.github.io
 
-This repo is about my personal website themed as my digital space.
+This repo is where I'm hosting my static personal website themed as my digital space.
 
-Here you can find a brief description about my interests, some of the work I've made in the past 2 years, and myself.
+Here you can find information about myself, my current interests, and some of the work I've made in the past 2 years.
 
 it's currently hosted at https://carlosleonardoemanuele.space/
 
-enjoy it :)
+enjoy :)
