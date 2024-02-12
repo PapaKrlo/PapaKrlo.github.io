@@ -177,6 +177,13 @@
     font-weight: 400;
     cursor: default;
 }
+
+.image-about {
+    transform: translate(0%, 0%);
+    height: 30%;
+    width: 30%;
+}
+
 @media only screen and (max-width: 480px) {
     .btn-90s {
         font-size: 1rem;
@@ -186,6 +193,16 @@
     }
     .topic {
         font-size: 1rem;
+    }
+    #btn-margin-p {
+        margin-top: 2.5rem;
+    }
+    .image-about{
+        height: 45%;
+        width: 45%;
+    }
+    #ball-pic{
+        display: none;
     }
 }
 
@@ -236,12 +253,6 @@ h1 {
 .image-p {
     transform: translate(0%, 0%);
     margin-top: 1%;
-}
-
-.image-about {
-    transform: translate(0%, 0%);
-    height: 30%;
-    width: 30%;
 }
 
 .info {
