@@ -6,13 +6,14 @@
         <link href="styles.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Carlos's Space</title>
+        <link rel="shortcut icon" href="img/[CE].png">
     </head>
     <body id="bg">
         <!-- bootstrap nav bar -->
         <div id="navb" class="container-fluid">
         <nav id="nav-color" class="navbar bg-body-tertiary fixed-top navbar-expand-md">
             <div class="container-fluid hei">
-              <a class="navbar-brand" href="./">Carlos's Space</a>
+              <a id="texto-dinamico" class="navbar-brand" href="./">Carlos's Space</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -32,23 +33,104 @@
                     <li class="nav-item">
                       <a class="nav-link" href="./about">About Me</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                       <a class="nav-link" href="./AI">AI Generation</a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </div>
             </div>
           </nav>
         </div>
-
+       
         <!-- Land Page -->
-        <div class="p-top container-lg cont position-relative expand">
+        <div id="work-intro" class="p-top container-lg cont position-relative expand">
             <h1 id="welcome" class="h1 main-title position-absolute start-50 translate-middle">[Some of my Work]</h1>
+    
+          </div>
+
+        <ul id="my-navbar-sticks">
+         
+            <a id="1" class="mini-nav" href="#greenbox">Greenbox</a>
+            <a id="2" class="mini-nav" href="#cc">Caring Creatures</a>
+            <a id="3" class="mini-nav" href="#ambiensa">Ambiensa</a>
+            <a id="4" class="mini-nav" href="#trainer">This Trainer Does Not Exist</a>
+            <a id="5" class="mini-nav" href="#car">V&C Studio</a>
+
+        </ul>
+
+
+        <div id="greenbox" class="container-lg cont-project position-relative div-p other-p project">
+          <h1 class="top-0 start-0 title-p"><u>GreenBox Mobile App</u></h1>
+          <br>
+          <br>
+          <p class="btn btn-dark topic">App Design</p>
+          <p class="btn btn-dark skills">Figma</p>
+          <p class="btn btn-dark skills">UI/UX</p>
+          <p class="btn btn-dark start-100 skills">Redesign</p>
+          <img id="app-p" src="./img/green-box.png" alt="image of the 'Progress Tracker' app" class="img-fluid top-50 start-50 image-p">
+          <p class="top-100 start-0 info">For a User Experience Design class I created GreenBox, a mobile app concept prototyped after conducting interviews and finding pain points among the UK student demographic. GreenBox aimed to help young adults learn about sustainability while providing affordable, quality, and sustainable
+            groceries. Unlike services like Home Chef or HelloFresh, it differentiated by teaching the user how to be sustainable instead of just delivering food. </p>
+          <h3 class="start-0 header-p no-display">Redesign Walkthrough Video:</h3>
+          <video id="video-ambiensa" width="100%" height="680" controls>
+              <source src="./vid/green-box-flow-comp.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          <h3 class="start-0 header-p header-top-p no-display">Figma Redesign File:</h3>
+          <iframe id="gb-figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FP0yEC9SwtzAvQHANXxe6Hm%2FGreen-Box-MVP-Prototype-Final%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddev" allowfullscreen></iframe>
+          <h3 style="margin-top: 80px" class="start-0 header-p no-display">Process Walkthrough and Presentation:</h3>
+          <iframe id="green-box-pdf" src= 
+          "assets/green-box-presentation.pdf"  width="100%" height="700px"> 
+          </iframe> 
+          <a id="btn-margin-greenbox" class="btn btn-dark btn-90s2" href="assets/green-box-presentation.pdf" type="button" target="_blank" rel="noopener noreferrer">View Design Deck</a>
         </div>
 
+        <div id="cc" class="container-lg cont-project position-relative div-p other-p project">
+          <h1 class="top-0 start-0 title-p"><u>Caring Creatures Web3 App</u></h1>
+          <br>
+          <br>
+          <p class="btn btn-dark topic">Full-Stack Development</p>
+          <p class="btn btn-dark skills">Web3</p>
+          <p class="btn btn-dark skills">UI/UX</p>
+          <p class="btn btn-dark skills">ReactJS</p>
+          <p class="btn btn-dark skills">MongoDB</p>
+          <p class="btn btn-dark skills">Express</p>
+          <p class="btn btn-dark skills">NodeJS</p>
+          <img id="app-p" src="./img/caring-creatures.png" alt="image of the 'Progress Tracker' app" class="img-fluid top-50 start-50 image-p">
+          <p class="top-100 start-0 info">I developed a full-stack application integrated with Web3 implementing a fully functional voting system with Ethereum tokens, validating them in a Mongo database. 
+            Using the MERN Stack: MongoDB, Express, ReactJS and NodeJS, the web app allows users to login with their MetaMask wallet and utilize their collection tokens to cast votes on which charities to support.  </p>
+          <h3 class="start-0 header-p no-display">Web App Video:</h3>
+          <video id="video-ambiensa" width="100%" height="680" controls>
+            <source src="./vid/cs50-final-video-0.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+         <!-- Project Section -->
+         <div id="ambiensa" class="container-lg cont-project position-relative div-p other-p project">
+          <h1 class="top-0 start-0 title-p"><u>Ambiensa S.A. Mobile App</u></h1>
+          <br>
+          <br>
+          <p class="btn btn-dark topic">App Design</p>
+          <p class="btn btn-dark skills">Figma</p>
+          <p class="btn btn-dark skills">UI/UX</p>
+          <p class="btn btn-dark start-100 skills">Redesign</p>
+          <img id="app-p" src="./img/wp-app.png" alt="image of the 'Progress Tracker' app" class="img-fluid top-50 start-50 image-p">
+          <p class="top-100 start-0 info">I was tasked to redesign an app used for progress tracking in Ambiensa's real estate projects. The primary users of the app are 
+              inspectors and external auditors, who monitor third-party contractors' progress on projects. The app offers real-time updates on 
+              various project metrics. The redesign focused on improving the app's usability by creating an intuitive & user-friendly interface, 
+              and applying UX and UI concepts.</p>
+          <h3 class="start-0 header-p no-display">Redesign Walkthrough Video:</h3>
+          <video id="video-ambiensa" width="100%" height="680" controls>
+              <source src="./vid/wp-app-showcase.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          <h3 class="start-0 header-p header-top-p no-display">Figma Redesign File:</h3>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQub2rVesnQkkkPLvAvGXFQ%2FApp-Avance-de-Obra%3Fnode-id%3D0%253A1%26t%3DyR7LarRQylVds8kw-1" allowfullscreen
+          class="no-display"
+          ></iframe>
+        </div>
         <!-- Project Section -->
-        <div class="container-lg cont-project position-relative div-p">
+        <div id="trainer" class="container-lg cont-project position-relative div-p project">
           <h1 class="top-0 start-0 title-p"><u>This Trainer Does Not Exist</u></h1>
           <br>
           <br>
@@ -61,13 +143,13 @@
           <div class="d-flex justify-content-center">
             <img src="./img/ttdne.jpeg" alt="image of the 'this trainer does not exist' website" class="img-fluid top-50 start-50 translate-middle2 image-p">
           </div>
-          <p class="top-100 start-0 info"> I created a website as part of a university module that produced AI-generated images
-            of trainers using PyTorch and StyleGAN-2ADA. The website allowed users to click a button to cycle through AI-generated images.
+          <p class="top-100 start-0 info">I created a website that produces AI-generated images
+            of trainers using PyTorch and StyleGAN-2ADA. The website allows users to click a button to cycle through AI-generated images.
              I used a dataset of more than 500 trainer images to train the model. With the help of a pre-trained model from a GitHub repository,
              I trained the AI model for 105 ticks, which equates to about 61 hours. I initially used a DCGAN (Deep Convolutional Generative Adversarial Network)
              but later discovered that StyleGAN-2ADA produced higher-quality images. The resulting AI-generated images were indistinguishable from real ones, meeting
-             the expectations of a network like StyleGAN-2ADA. I created the website using Code Sandbox to demonstrate the real-life application of this project, which
-             is intended for trainer enthusiasts and shoe designers seeking inspiration for new designs. </p>
+             the expectations of a network like StyleGAN-2ADA. The website is hosted on Code Sandbox to demonstrate the real-life application of this project, which
+             could target trainer enthusiasts and shoe designers seeking inspiration for new designs. </p>
              <a id="btn-margin-p" class="btn btn-dark btn-90s2" href="https://github.com/PapaKrlo/this-trainer-does-not-exist" type="button" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
           <h3 class="start-0 header-p no-display">Live Website Prototype:</h3>
           <iframe src="https://codesandbox.io/embed/this-trainer-does-not-exist-480nqt?fontsize=14&hidenavigation=1&;hidedevtools=1&theme=dark&view=preview"
@@ -80,8 +162,8 @@
         </div>
 
         <!-- Project Section -->
-        <div class="container-lg cont-project position-relative div-p other-p">
-            <h1 class="top-0 start-0 title-p"><u>Interactive 3D Portfolio</u></h1>
+        <div id="car"class="container-lg cont-project position-relative div-p other-p project">
+            <h1 class="top-0 start-0 title-p"><u>V&C Studio 3D Web Portfolio</u></h1>
             <br>
             <br>
             <p class="btn btn-dark topic">Interactive Web Development</p>
@@ -91,36 +173,12 @@
             <p class="btn btn-dark start-100 skills">3D</p>
             <img src="./img/i3dp-web.png" alt="image of the 'interactive 3D portfolio' website" class="img-fluid top-50 start-50 translate-middle2 image-p">
             <p class="top-100 start-0 info"> For my Creative & Physical Computing class, I used Three.js to develop an interactive 3D portfolio. 
-                It displays my previous work on banners in a game-like atmosphere where users navigate back and forth in a car with the ability to play 
-                between five preselected songs on the “car radio”. This design was inspired by Bruno Simon's portfolio website, which also uses a car and 
-                billboards to showcase work. </p>
+                It displays my 1st and 2nd year of undergrad work on 3D banners in a game-like environment where users navigate back and forth in a car. They also have the ability to circle 
+                between five preloaded songs on the custom-coded “car radio”. </p>
             <a class="no-display btn btn-dark btn-90s2" href="https://j035i.csb.app/" type="button" target="_blank" rel="noopener noreferrer">Explore 3D Web Portfolio</a>
             </div>
-        <!-- Project Section -->
-        <div class="container-lg cont-project position-relative div-p other-p">
-            <h1 class="top-0 start-0 title-p"><u>Progress Tracker App - Ambiensa S.A.</u></h1>
-            <br>
-            <br>
-            <p class="btn btn-dark topic">App Design</p>
-            <p class="btn btn-dark skills">Figma</p>
-            <p class="btn btn-dark skills">UI/UX</p>
-            <p class="btn btn-dark start-100 skills">Redesign</p>
-            <img id="app-p" src="./img/wp-app.png" alt="image of the 'Progress Tracker' app" class="img-fluid top-50 start-50 image-p">
-            <p class="top-100 start-0 info">My job was to redesign the Progress Tracker App used in Ambiensa's real estate projects. The primary users of the app are 
-                inspectors and external auditors, who monitor third-party contractors' progress on the project. The app offers real-time updates on 
-                various aspects of the project, such as completion dates, milestones, materials, equipment used, and quality metrics, and is accessible 
-                from device with an internet connection. The redesign focused on improving the app's usability by creating an intuitive & user-friendly interface, 
-                and applying UX and UI concepts.</p>
-            <h3 class="start-0 header-p no-display">Redesign Walkthrough Video:</h3>
-            <video id="video-ambiensa" width="100%" height="680" controls>
-                <source src="./vid/wp-app-showcase.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            <h3 class="start-0 header-p header-top-p no-display">Figma Redesign File:</h3>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQub2rVesnQkkkPLvAvGXFQ%2FApp-Avance-de-Obra%3Fnode-id%3D0%253A1%26t%3DyR7LarRQylVds8kw-1" allowfullscreen
-            class="no-display"
-            ></iframe>
-          </div>
+       
+          
 
           <!-- footer -->
           <div id="footer" class="container-fluid position-relative d-flex align-items-center justify-content-center">
@@ -150,7 +208,7 @@
             </div>
         </div>
               
-        <script src="index.js"></script>
+        <script src="work.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

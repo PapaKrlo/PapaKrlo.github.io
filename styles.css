@@ -11,9 +11,19 @@
         font-size: 1.6rem;
         margin-left: 1.2rem;
     }
-    
+    #green-box-pdf{
+        display: none;
+    }
+    #gb-figma{
+        display: none;
+    }
 }
 
+@media only screen and (min-width: 480px) {
+    #btn-margin-greenbox {
+        display: none;
+    }
+}
 .navbar-toggler {
     margin-right:1.5rem;
 }
@@ -22,7 +32,7 @@
     .navbar-toggler {
         display: none;
     }
-    
+   
 }
 
 .cont {
@@ -316,4 +326,44 @@ h1 {
     background-size: 100% 100%;
     background-image: linear-gradient(#0D0619, #0D0619);
     opacity: 1.0;
+}
+
+#my-navbar-sticks{
+    background-color: #0d06199f;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  
+    /* Pay special attention here! */
+    position: sticky;
+    top: 110px;
+    z-index: 1;
+}
+#my-navbar-sticks a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    transition: linear;
+}
+#my-navbar-sticks a:hover{
+    color: #EDFF71;
+    text-decoration:underline;
+
+}
+
+.activated{
+    color: #EDFF71!important;
+    text-decoration:underline!important;
+}
+.project{
+    padding-top: 14rem;
+}
+@media screen {
+    
+}
+@media 
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
