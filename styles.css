@@ -24,9 +24,6 @@
         display: none;
     }
 
-    #hlight {
-        padding-top: 7rem;
-    }
 }
 .navbar-toggler {
     margin-right:1.5rem;
@@ -37,6 +34,13 @@
         display: none;
     }
    
+}
+
+@media only screen and (max-width: 480px) {
+    #hlight {
+        padding-top: 7rem;
+    }
+    
 }
 
 .cont {
