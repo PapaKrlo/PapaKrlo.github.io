@@ -23,6 +23,10 @@
     #btn-margin-greenbox {
         display: none;
     }
+
+    #hlight {
+        padding-top: 7rem;
+    }
 }
 .navbar-toggler {
     margin-right:1.5rem;
@@ -378,3 +382,4 @@ h1 {
     scroll-behavior: smooth;
   }
 }
+
